@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .card {
+        background-color: rgb(230, 229, 229);
+        border: 1px solid red;
+        padding: 5px; 
+        border-radius: 10px;
+    }
+}
